@@ -1,12 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-import pickle
 
 app = FastAPI()
-
-
-with open('', 'rb') as f:
-    pickle.load(f)
 
 
 class Data(BaseModel):
