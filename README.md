@@ -30,6 +30,4 @@ app = FastAPI()
 
 This can be run without using `--reload` but using this provides our api the ability to reload whenever something changes in our app, so you dont need to run the app again.
 
-## Code Explanation
-
 
