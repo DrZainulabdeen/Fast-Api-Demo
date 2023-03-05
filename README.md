@@ -30,4 +30,12 @@ app = FastAPI()
 
 This can be run without using `--reload` but using this provides our api the ability to reload whenever something changes in our app, so you dont need to run the app again.
 
+To deploy it on a server use this command:
+
+```
+python3 -m uvicorn main:app --host 0.0.0.0 --port 8000
+```
+
+Make sure to have `all trafic` allowed in inbound rules in security groups for `ìpv4`
+
 
